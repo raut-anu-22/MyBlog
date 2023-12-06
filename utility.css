@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@1,100&family=Playpen+Sans:wght@300&display=swap');
+:root{
+    --main-bg-color:blue;
+    --font1:'Fira Sans Condensed', sans-serif;
+    --font1:'Playpen Sans', cursive;
+}
+.font1{
+    font-family: var(--font1);
+
+}
+.font2{
+    font-family: var(--font2);
+}
+.max-width-1{
+    max-width: 80vw;
+}
+.max-width-2{
+    max-width:60vw;
+}
+.m-auto{
+    margin:auto;
+    margin-top:51px;
+}
+.mx-1{
+    margin-left:23px;
+    margin-right:23px;
+}
+
+
+
+

@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Playpen Sans', cursive;
+    
+}
+.sidebar{
+    background-color: lightgray;
+    position:absolute;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    height:100vh;
+    transition: transform 0.3s ease-in;
+}
+.sidebarGo{
+    transform:translate(-443px , 0px);
+    position:absolute;
+   
+}
+.sidebar nav{
+    padding:16px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding:33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color:black;
+}
+.main{
+    /* background-color: yellowgreen; */
+    width:90vw;
+    padding:23px
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+    /* background-color: rgb(21, 195, 70); */
+    height:60vh;
+    width:73vw;
+    margin: 144px auto;
+    justify-content: space-around;
+    display:flex;
+
+}
+.devInfo{
+    display:flex;
+    justify-content: center;
+    font-size: 16px;
+    margin: 8px 118px;
+    flex-direction: column;
+}
+.devPic img{
+    height: 166px;
+    width:181px;
+}
+.hello{
+    font-size: 3em;
+
+}
+.name{
+    font-size: 3em;
+    font-weight: bold;
+
+}
+.about{
+    font-size: 2.5em;
+
+}
+.moreabout{
+    font-size: 2.2em;
+    margin-top: 23px;
+
+}
+.button{
+    margin-top: 34px;
+    font-size:10px;
+}
+.btn{
+    padding: 3px 14px;
+    border-radius: 22px;
+    color: azure;
+    background-color: blue;
+    font-weight: bold;
+    font-size: 2em;
+    margin:3px 3px;
+    cursor: pointer;  
+}
+.btn:hover{
+    background-color: azure;
+    color: blue;
+}
+.btn-sm{
+    font-size:17px;
+    padding:7px 13px;
+    margin:10px 0;
+}
+.contactForm{
+    padding: 0 34px;
+    padding-top:60px;
+    margin: 0 88px;
+}
+.contactForm h1{
+    text-align: center;
+}
+.contactForm  form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactForm  form div input{
+    padding:5px;
+    width: 31vh;
+    border-radius: 12px;
+    margin: 10px 0;
+}
+#emailHelp{
+    font-size: 10px;
+    color:midnightblue;
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    margin: 23px;
+}
+.about h2{
+    margin:8px;
+
+}
+.about p{
+    font-size:23px ;
+
+}
+.Myskill{
+    font-size: 23px;
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+}
+.skill{
+    width:265px;
+    height:10px;
+    background-color: red;
+    border:1px solid;
+}
+.full{
+    width: 265px;
+    background-color:red;
+}
+.fifty{
+    width:125;
+    background-color: blue;
+}
+.t5{
+    width:75px;
+    background-color: yellowgreen;
+}
+@media (max-width: 1610px)
+{
+.about{
+    margin:8px;
+}
+.infoContainer, .contactForm{
+    margin:8px;
+    
+}
+.devPic{
+    display:none;
+}
+.devInfo{
+    font-size:10px;
+}
+.buttons{
+    font-size: 6px;
+}
+}
+.humburger{
+    position:absolute;
+    top:10px;
+    left:10px;
+    cursor:pointer;
+}
+.close{
+    margin-left:130px;
+    margin-top: 8px;
+
+}
+.ham{
+    margin-top:8px;
+
+}

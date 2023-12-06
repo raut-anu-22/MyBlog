@@ -1,0 +1,154 @@
+.navigation {
+    height: 40px;
+    /* background-color: rgb(235, 227, 242); */
+    justify-content: space-around;
+    display: flex;
+    align-items: baseline;
+    font-family: var(--font1);
+
+}
+
+.nav-left {
+    font-size: 25px;
+    display: flex;
+
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0 77px;
+    font-size: 18px;
+}
+
+.nav-left ul li {
+    list-style: none;
+    margin: 0 14px;
+    font-family: var(--font2);
+    font-size:19px;
+
+
+
+}
+
+.nav-left ul li a:hover {
+    color: rgb(103, 185, 185);
+    font-weight: bolder;
+
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 23px;
+
+}
+
+.content {
+    background-color: rgb(241, 244, 245);
+    display: flex;
+    height:100%;
+    margin-top:12px;
+    padding: 9px;
+    position:relative;
+    
+}
+.content::after{
+    content: "";
+    background-image: url('../article.jpg');
+    position:absolute;
+    width:98%;
+    height: inherit;
+    opacity:0.15;
+
+}
+
+.content-left {
+    font-family: var(--font1);
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:50px;
+    z-index:1;
+
+}
+
+.content-right {
+    padding-bottom: 164px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.content-right img {
+    height: 228px;
+    margin-top: 68px;
+    border: 2px solid black;
+    border-radius: 200px;
+
+
+}
+.home-article-content a{
+    text-decoration: none;
+    color:rgb(78, 24, 71)
+}
+.home-article-content a:hover{
+    color: rgb(255, 127, 251);
+}
+
+
+.form-input {
+    padding: 0px 5px;
+    padding-top: 3px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin: 0 13px;
+    font-family: var(--font1);
+}
+
+.btn {
+    padding: 0px 15px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin:0 13px;
+    font-family: var(--font1);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: lightblue;
+    color: blueviolet;
+
+}
+.home-articles {
+    padding-top:12px;
+    background-color: rgb(241, 215, 215);
+}
+
+.home-article {
+    display:flex;
+    padding:25px;
+    margin:12px;
+    
+} 
+.home-article-content{
+    align-self: center;
+    padding:25px;
+}
+
+.footer {
+    height: 80px;
+    background-color: rgb(164, 142, 184);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.footer a{
+    color:rgb(37, 2, 41);
+}

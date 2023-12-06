@@ -1,0 +1,129 @@
+.navigation {
+    height: 40px;
+    justify-content: space-around;
+    display: flex;
+    align-items: baseline;
+    font-family: var(--font1);
+
+}
+
+.nav-left {
+    font-size: 25px;
+    display: flex;
+
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0 77px;
+    font-size: 18px;
+}
+
+.nav-left ul li {
+    list-style: none;
+    margin: 0 14px;
+    font-family: var(--font2);
+    font-size:19px;
+
+
+
+}
+
+.nav-left ul li a:hover {
+    color: rgb(103, 185, 185);
+    font-weight: bolder;
+
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 23px;
+
+}
+
+.content {
+    background-color: rgb(241, 244, 245);
+    display: flex;
+    height:100%;
+    margin-top:12px;
+    padding: 9px;
+    position:relative;
+    
+}
+.content::after{
+    content: "";
+    background-image: url('../article.jpg');
+    position:absolute;
+    width:98%;
+    height: inherit;
+    opacity:0.15;
+
+}
+
+.content-left {
+    font-family: var(--font1);
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:50px;
+    z-index:1;
+
+}
+.about{
+    margin:56px;
+}
+.about h2{
+    margin:8px;
+
+}
+.about p{
+    font-size:23px ;
+
+}
+.Myskill{
+    font-size: 23px;
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+}
+.skill{
+    width:265px;
+    height:10px;
+    background-color: red;
+    border:1px solid;
+}
+.full{
+    width: 265px;
+    background-color:red;
+}
+.fifty{
+    width:125;
+    background-color: blue;
+}
+.t5{
+    width:75px;
+    background-color: yellowgreen;
+}
+@media (max-width: 1610px){
+
+.about{
+    margin:8px;
+}
+}
+.content-right {
+    padding-bottom: 164px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.content-right img {
+    height: 228px;
+    margin-top: 68px;
+}

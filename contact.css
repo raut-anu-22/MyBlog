@@ -1,0 +1,43 @@
+.navigation {
+    height: 40px;
+    justify-content: space-around;
+    display: flex;
+    align-items: baseline;
+    font-family: var(--font1);
+
+}
+.content {
+    display: block;
+    height:100vh;
+    margin-top:52px;
+    padding: 9px;
+    position:relative;
+    overflow:hidden;
+    z-index:1;
+    
+}
+.content::after{
+    content: "";
+    background-image: url('../article.jpg');
+    position:absolute;
+    width:98%;
+    height: inherit;
+    border-radius: 12px;
+    top:0;
+    opacity:0.15;
+    z-index:-1;  
+
+}
+.form-box{
+    padding:8px;
+}
+.form-box input,textarea{
+    width:44vw;
+    padding:3px 6px;
+    margin:5px;
+    border:2px solid pink;
+    border-radius: 2px;
+    font-size:18px;
+    font-family: var(--font1);
+}
+
